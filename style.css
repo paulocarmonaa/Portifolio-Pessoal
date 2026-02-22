@@ -19,6 +19,7 @@ body{
 .flex{
     display:flex;
 }
+
 /* Configurações do Menu */
 header{
     padding: 35px 3%;
@@ -80,4 +81,21 @@ main {
 
 main li{
     list-style-type: none;
+}
+
+/* Seção de Contato */
+
+footer{
+    color: rgb(255, 255, 255);
+}
+
+footer h1{
+    padding: 60px 60px 100px;
+    text-align: center;
+}
+footer .flex{
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-bottom: 10px;
 }
