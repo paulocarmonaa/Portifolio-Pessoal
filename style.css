@@ -40,3 +40,28 @@ header nav ul{
     justify-content:center;
     gap: 150px;
 }
+
+/*Configurações do Sobre Mim*/
+main {
+    color:antiquewhite;
+    padding: 60px 5%;
+}
+
+.sobre-mim{
+  text-align: center;
+  margin: 40px;
+}
+
+.sobre-mim h1{
+    padding: 20px 0;
+}
+
+.sobre-mim h2{
+    padding: 10px 0;
+}
+
+.sobre-mim p{
+    text-align: justify;
+    padding: 40px;
+    line-height: 2.2;
+}
