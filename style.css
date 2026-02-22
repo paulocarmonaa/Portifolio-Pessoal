@@ -65,3 +65,19 @@ main {
     padding: 40px;
     line-height: 2.2;
 }
+
+/* Configurações do Meu Projeto */
+
+.meus-projetos h1{
+    text-align: center;
+    padding: 60px;
+}
+
+.meus-projetos .flex{
+    justify-content: space-between;
+    align-items: center;
+}
+
+main li{
+    list-style-type: none;
+}
