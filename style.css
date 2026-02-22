@@ -19,3 +19,24 @@ body{
 .flex{
     display:flex;
 }
+/* Configurações do Menu */
+header{
+    padding: 35px 3%;
+}
+
+header > .interface{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:center;
+    gap: 150px;
+}
