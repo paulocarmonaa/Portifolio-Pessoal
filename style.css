@@ -82,22 +82,55 @@ main {
 
 /* Configurações do Meu Projeto */
 
+.meus-projetos{
+    scroll-margin-top: 100px;
+}
 .meus-projetos h1{
     text-align: center;
-    padding: 60px;
+    padding: 70px;
+    font-size: 40px;
 }
 
 .meus-projetos .flex{
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 80px;
+}
+
+.meus-projetos h2{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.meus-projetos .caixa{
+    padding: 40px;
+    border-radius: 30px;
+    transition: 0.2s;
+}
+
+.meus-projetos .caixa:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.466);
+}
+
+.meus-projetos p{
+    text-align: center;
+    max-width: 300px;
 }
 
 main li{
     list-style-type: none;
 }
 
-/* Seção de Contato */
+.meus-projetos img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
 
+/* Configurações "Sobre Mim" */
 footer{
     color: rgb(255, 255, 255);
 }
