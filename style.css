@@ -1,0 +1,181 @@
+/* Configurações Gerais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Code", monospace;
+}
+
+body{
+    background-color: #000000;
+    min-height: 100vh;    
+    /* background-image: linear-gradient(to bottom,rgb(63, 4, 63),black) */
+}
+
+.interface {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.flex{
+    display:flex;
+}
+
+/* Configurações do Menu */
+header{
+    padding: 35px 3%;
+    position: sticky;
+    top: 0;
+    background-color: #000000;
+    z-index: 100;
+}
+
+header > .interface{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a{
+    color: rgb(161, 161, 161);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    font-size: 20px;
+}
+
+header a:hover{
+    color:rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-evenly;
+    gap: 150px;
+}
+
+/*Configurações do Sobre Mim*/
+main {
+    color:antiquewhite;
+    padding: 60px 5%;
+}
+
+.sobre-mim{
+  text-align: center;
+  margin: 40px;
+}
+
+.sobre-mim h1{
+    padding: 25px 0;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.sobre-mim h2{
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+.sobre-mim p{
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 1000px;
+    line-height: 2.2;
+}
+
+/* Configurações do Meu Projeto */
+
+.meus-projetos{
+    scroll-margin-top: 100px;
+}
+.meus-projetos h1{
+    text-align: center;
+    padding: 70px;
+    font-size: 40px;
+}
+
+.meus-projetos .flex{
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.meus-projetos h2{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.meus-projetos .caixa{
+    padding: 40px;
+    border-radius: 30px;
+    transition: 0.2s;
+}
+
+.meus-projetos .caixa:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.466);
+}
+
+.meus-projetos p{
+    text-align: center;
+    max-width: 300px;
+}
+
+main li{
+    list-style-type: none;
+}
+
+.meus-projetos img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* Configurações do Contato*/
+footer{
+    color: rgb(255, 255, 255);
+}
+
+footer .flex{
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+footer h1{
+    padding: 150px 60px 100px;
+    text-align: center;
+}
+
+footer .flex .botoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: auto;       
+  height: auto;      
+  border-radius: 0;  
+}
+
+footer .botoes button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .botoes button:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+}
